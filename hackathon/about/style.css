@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: auto; /* Change to auto to accommodate content height */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative; /* Ensure positioning for the header */
+    z-index: 10; /* Bring the header above other elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40px; /* Adjust logo size */
+    height: 40px; /* Adjust logo size */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0f3959; /* Text color */
+    font-weight: 600; /* Bold text */
+}
+
+.background-image {
+    background-image: url('bg.png'); /* Replace with your background image URL */
+    background-size: cover; /* Cover the whole area */
+    background-position: center; /* Center the image */
+    height: calc(100vh - 80px); /* Full height minus the header height */
+    display: flex; /* Flexbox for centering */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically */
+    padding: 0 50px; /* Padding for left and right */
+    color: rgb(0, 0, 0); /* Default text color */
+}
+
+.content {
+    max-width: 600px; /* Max width of the content */
+}
+
+h1 {
+    color: rgb(141, 92, 140); /* Title color */
+    font-size: 48px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+p {
+    font-size: 18px; /* Font size for the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+.why-quickgig {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align items to the left */
+    margin: 0; /* No margin to avoid gap */
+    background-image: url('BG2.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    padding: 60px 50px; /* Padding around the section */
+    color: white; /* Text color for better contrast */
+}
+
+.why-quickgig-image {
+    width: 50%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the box without distortion */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.why-quickgig-text {
+    max-width: 500px; /* Max width for the text */
+}
+
+.why-quickgig-text h2 {
+    color: rgb(141, 92, 140); /* Heading color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.why-quickgig-text p {
+    font-size: 18px; /* Font size for the paragraph */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+footer {
+    background-color: #b8b3d4; /* Slight grayish lavender shade */
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-info p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.footer-column {
+    margin-right: 50px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
